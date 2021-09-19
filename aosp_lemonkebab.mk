@@ -23,6 +23,7 @@ $(call inherit-product, device/oneplus/lemonkebab/device.mk)
 
 # Inherit some common PixelExperience stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+EXTRA_FOD_ANIMATIONS := true
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
