@@ -210,7 +210,6 @@ VENDOR_SECURITY_PATCH := 2021-07-01
 # Sepolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 
-SELINUX_IGNORE_NEVERALLOWS := true
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # USB
