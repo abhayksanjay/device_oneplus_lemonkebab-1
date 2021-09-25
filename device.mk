@@ -161,7 +161,9 @@ PRODUCT_PACKAGES += \
     libsndmonitor \
     libspkrprot \
     libvisualizer \
-    libvolumelistener
+    libvolumelistener \
+    android.hardware.audio@2.0-service \
+    android.hardware.audio4.0-service \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
