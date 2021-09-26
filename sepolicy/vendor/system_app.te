@@ -10,3 +10,7 @@ allow system_app sysfs_oem:file { read write getattr open };
 binder_call(system_app, hal_cameraHIDL_default)
 
 allow system_app default_android_service:service_manager find;
+
+# Battery Health
+allow system_app sysfs_battery_supply:dir { search };
+allow system_app sysfs_battery_supply:file { read open getattr };
